@@ -1,4 +1,5 @@
 module.exports =  {
+    // function to scroll at page you want to extract
     autoScroll : async function autoScroll(page){
         await page.evaluate(async () => {
             await new Promise((resolve, reject) => {
@@ -17,6 +18,8 @@ module.exports =  {
             });
         });
     },
+
+    // elements selector from page you want to extract
     elements : {
         titleSelector: '.course-card--large--1BVxY > .course-card--main-content--3xEIw > .course-card--course-title--2f7tE',
         imageSelector: '.course-card--large--1BVxY .course-card--image-wrapper--Sxd90 > .course-card--course-image--2sjYP',
