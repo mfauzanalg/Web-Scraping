@@ -27,7 +27,7 @@ class udemyPage {
 
     async parseResult(){
          // wait page to load
-         await this.page.waitForSelector(this.elements.titleSelector, {timeout: 30000});
+         await this.page.waitForSelector(this.elements.titleSelector, {timeout: 90000});
         //  await this.page.waitForSelector(this.elements.imageSelector, {timeout: 30000});
         //  await this.page.waitForSelector(this.elements.descSelector, {timeout: 30000});
         //  await this.page.waitForSelector(this.elements.authorSelector, {timeout: 30000});
@@ -39,14 +39,13 @@ class udemyPage {
         //  await this.page.waitForSelector(this.elements.lectureSelector, {timeout: 30000});
         //  await this.page.waitForSelector(this.elements.levelSelector, {timeout: 30000});
         //  await this.page.waitForSelector(this.elements.urlSelector, {timeout: 30000});
-         await this.autoScroll(this.page);
          await this.page.waitFor(3000);
+         await this.autoScroll(this.page);
 
         const elements = this.elements;
 
         let extractor = await this.page.evaluate((elements) => {
-            window.scrollBy(0, window.innerHeight);
-            
+            // window.scrollBy(0, window.innerHeight);
 
             // select elements you want to extract
             async function getDoc() {
@@ -64,12 +63,13 @@ class udemyPage {
                     levelNodeList : await document.querySelectorAll(elements.levelSelector), 
                     urlNodeList : await document.querySelectorAll(elements.urlSelector),
                 }
+                console.log('udah semua');
                 return doc;
             }
 
-            let infoArray = getDoc().then((res) => {
+            return getDoc().then((res) => {
+                let infoArray = [];
                 for (let i = 0; i < res.titleNodeList.length; i++) {
-                    let infoArray = [];
                     infoArray[i] = {
                       no : i,
                       title: res.titleNodeList[i].innerText,
@@ -86,15 +86,13 @@ class udemyPage {
                       url: res.urlNodeList[i].getAttribute('href')
                     };
                 }
-                console.log(infoArray);
                 return infoArray;
             })
 
-            infoArray.then((res) => res);
             
         }, elements);
-
-        console.log(extractor);
+        
+        // console.log(extractor);
         return extractor;
     }
 
@@ -118,7 +116,6 @@ class udemyPage {
                     await this.page.waitForSelector(this.elements.titleSelector, {timeout: 30000});
                     
                 } else{
-                    console.log('fauzan');
                     break;
                 }
             }

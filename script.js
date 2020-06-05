@@ -92,7 +92,7 @@ scrape = async (arrLink) => {
 
 
 // scrape every page in array link
-scrape([`https://www.udemy.com/courses/search/?locale=en_US&p=9&persist_locale=&q=javascript&src=ukw`]);
+scrape([`https://www.udemy.com/courses/search/?locale=en_US&p=1&persist_locale=&q=javascript&src=ukw`]);
 
 
 
