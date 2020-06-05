@@ -3,31 +3,34 @@ const puppeteer = require('puppeteer');
 const UDEMY_URL = (udemy) => `https://www.udemy.com/${udemy}`;
 
 
-const self = {
+class udemyPage {
 
-    browser: null,
-    page: null,
+    constructor(){
+        this.browser = null;
+        this.page = null;
+    }
+    
+    
 
+    async init(udemy, elements) {
+        this.browser = await puppeteer.launch({ headless: false });
+        this.page = await this.browser.newPage();
 
-    init: async (udemy, elements) => {
-        self.browser = await puppeteer.launch({ headless: false });
-        self.page = await self.browser.newPage();
+        await this.page.goto(UDEMY_URL(udemy));
 
-        await self.page.goto(UDEMY_URL(udemy));
-
-        await self.page.setViewport({
+        await this.page.setViewport({
             width: 1300,
             height: 2500,
           });
       
-    },
+    }
 
-    parseResult: async (elements) => {
+    async parseResult(elements){
          // wait page to load
-         await self.page.waitForSelector(elements.titleSelector, {timeout: 30000});
-        //  await self.autoScroll(self.page);
+         await this.page.waitForSelector(elements.titleSelector, {timeout: 30000});
+        //  await this.autoScroll(this.page);
 
-        var extractor = await self.page.evaluate((elements) => {
+        var extractor = await this.page.evaluate((elements) => {
             window.scrollBy(0, window.innerHeight);
             var infoArray = [];
             
@@ -45,27 +48,28 @@ const self = {
         }, elements);
 
         return extractor;
-    },
+    }
 
-    getResult: async (elements, nr) => {
+    async getResult(elements, nr){
         let results = [];
 
         do {
 
-            let newResult = await self.parseResult(elements);
+            let newResult = await this.parseResult(elements);
 
             results = [...results, ...newResult];
             console.log('guuguk');
             console.log(results.length)
             if (results.length < nr){
                 console.log('miaw');
-                let nextPageButton = await self.page.$('#udemy > div.main-content-wrapper > div.main-content > div > div > div.course-directory--container--5ZPhr > div.pagination--container--2wc6Z > a.udlite-btn.udlite-btn-small.udlite-btn-secondary.udlite-heading-sm.udlite-btn-icon.udlite-btn-icon-small.udlite-btn-icon-round.pagination--next--5NrLo');
+                let nextPageButton = await this.page.$('#udemy > div.main-content-wrapper > div.main-content > div > div > div.course-directory--container--5ZPhr > div.pagination--container--2wc6Z > a.udlite-btn.udlite-btn-small.udlite-btn-secondary.udlite-heading-sm.udlite-btn-icon.udlite-btn-icon-small.udlite-btn-icon-round.pagination--next--5NrLo');
                 
                 if (nextPageButton) {
                     console.log('hell u');
                     nextPageButton.click();
                     console.log('wawa');
-                    await self.page.waitFor(2000)
+                    await this.page.waitForResponse(response => response.ok())
+                    await this.page.waitFor(3000)
                 } else{
                     break;
                 }
@@ -76,28 +80,9 @@ const self = {
         
         return results.slice(0, nr);
 
-    },
-
-    autoScroll : async function autoScroll(page){
-        await page.evaluate(async () => {
-            await new Promise((resolve, reject) => {
-                var totalHeight = 0;
-                var distance = 50;
-                var timer = setInterval(() => {
-                    var scrollHeight = document.body.scrollHeight;
-                    window.scrollBy(0, distance);
-                    totalHeight += distance;
-    
-                    if(totalHeight >= scrollHeight){
-                        clearInterval(timer);
-                        resolve();
-                    }
-                }, 50);
-            });
-        });
-    },
+    }    
 
 }
 
 
-module.exports = self;
+module.exports = udemyPage;

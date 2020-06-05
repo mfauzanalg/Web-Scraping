@@ -1,5 +1,4 @@
 const udemy = require('./udemy');
-const udemy2 = require('./udemy');
 
 const elements = {
     titleSelector: '.course-card--large--1BVxY > .course-card--main-content--3xEIw > .course-card--course-title--2f7tE',
@@ -20,13 +19,21 @@ const elements = {
 
     const objects = [];
 
-    const initial = await udemy.init('courses/search/?locale=en_US&p=1&persist_locale=&q=javascript&src=ukw', elements);
-    const initial2 = await udemy2.init('courses/search/?locale=en_US&p=9&persist_locale=&q=javascript&src=ukw', elements);
-    
-    const results = udemy.getResult(elements, 40);
-    // const results2 = udemy2.getResult(elements, 40);
+    const udemy1 = new udemy();
+    const udemy2 = new udemy();
 
-    results.then((res) => {objects.push(res)});
+    const initial = await udemy1.init('topic/nodejs/', elements);
+    const initial2 = await udemy2.init('topic/nodejs/', elements);
+    
+    const results = udemy1.getResult(elements, 40);
+    const results2 = udemy2.getResult(elements, 20);
+
+    // results.then((res) => {objects.push(res); });
     // results2.then((res) => {objects.push(res); console.log(objects)});
+
+    Promise.all([results, results2]).then((values) => {
+        objects.push(values);
+        console.log(objects[1][1]);
+    })
 
 })();
