@@ -1,3 +1,4 @@
+const fs = require("fs");
 const udemy = require('./udemy');
 
 const elements = {
@@ -15,25 +16,27 @@ const elements = {
     urlSelector: '.course-list--container--3zXPS > div > .popover--popover--t3rNO > a',
 };
 
-(async () => {
 
-    const objects = [];
+(async () => {
 
     const udemy1 = new udemy();
     const udemy2 = new udemy();
 
-    const initial = await udemy1.init('topic/nodejs/', elements);
-    const initial2 = await udemy2.init('topic/nodejs/', elements);
+    const initial = await udemy1.init('search/?kw=javascr&p=2&q=javascript&src=sac&persist_locale=&locale=en_US&previous_locale=es_ES', elements);
+    const initial2 = await udemy2.init('search/?kw=javascr&p=3&q=javascript&src=sac&persist_locale=&locale=en_US&previous_locale=es_ES', elements);
     
-    const results = udemy1.getResult(elements, 40);
+    const results = udemy1.getResult(elements, 20);
     const results2 = udemy2.getResult(elements, 20);
 
-    // results.then((res) => {objects.push(res); });
-    // results2.then((res) => {objects.push(res); console.log(objects)});
 
     Promise.all([results, results2]).then((values) => {
-        objects.push(values);
-        console.log(objects[1][1]);
+        var merged = [].concat.apply([], values);
+        console.log(merged);
+
+        fs.writeFile("udemy_course.json", JSON.stringify(merged, null, 2), 'utf8' ,function(err) {
+            if (err) throw err;
+            console.log("Saved!");
+        });
     })
 
 })();

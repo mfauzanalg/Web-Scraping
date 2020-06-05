@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 
-const UDEMY_URL = (udemy) => `https://www.udemy.com/${udemy}`;
+const UDEMY_URL = (udemy) => `https://www.udemy.com/courses/${udemy}`;
 
 
 class udemyPage {
@@ -13,7 +13,7 @@ class udemyPage {
     
 
     async init(udemy, elements) {
-        this.browser = await puppeteer.launch({ headless: false });
+        this.browser = await puppeteer.launch({ headless: true });
         this.page = await this.browser.newPage();
 
         await this.page.goto(UDEMY_URL(udemy));
@@ -71,7 +71,9 @@ class udemyPage {
                     await this.page.waitForResponse(response => response.ok())
                     await this.page.waitFor(3000)
                 } else{
+                    await this.browser.close();
                     break;
+                    
                 }
             }
 
