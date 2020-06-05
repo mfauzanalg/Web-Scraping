@@ -9,10 +9,11 @@ const success = chalk.keyword('green');
 
 
 scrape = async (arrLink) => {
-  // open the headless browser
-  let browser = await puppeteer.launch({ headless: true });
-
+  
   try {
+    // open the headless browser
+    let browser = await puppeteer.launch({ headless: false });
+    
     const arrResult = arrLink.map(async link => {
       // open a new page in the browser
       var page = await browser.newPage();
@@ -21,7 +22,6 @@ scrape = async (arrLink) => {
       await page.goto(link);
       
       // wait page to load
-      await page.waitFor(2000);
       await page.waitForSelector(base.elements.titleSelector, {timeout: 99999999});
       await base.autoScroll(page);
   
@@ -67,6 +67,7 @@ scrape = async (arrLink) => {
   
       // close browser after extracting data
       await page.close();
+      // await browser.close();
       console.log(success('Browser Closed'));
 
       // return the array of object data
@@ -75,7 +76,7 @@ scrape = async (arrLink) => {
     
     // wait until all pages are extracted
     const jsonString = await Promise.all(arrResult);
-
+    await browser.close();
     // convert array of object to JSON file
     console.log([].concat.apply([], jsonString));
 
@@ -87,27 +88,11 @@ scrape = async (arrLink) => {
     console.log(error(err));
     console.log(error('Browser Closed'));
   } 
-  
-  // close browser to finish scraping
-  finally{
-    await browser.close();
-  }
 }
 
-// create an array of links
-const arrLink = [];
-for (let i = 1; i < 5; i++){
-  arrLink.push(`https://www.udemy.com/courses/search/?locale=en_US&p=${i}&persist_locale=&q=javascript&src=ukw`);
-}
-
-const arrLink2 = [];
-for (let i = 5; i < 10; i++){
-  arrLink2.push(`https://www.udemy.com/courses/search/?locale=en_US&p=${i}&persist_locale=&q=javascript&src=ukw`);
-}
 
 // scrape every page in array link
-scrape(arrLink);
-// scrape(arrLink2);
+scrape([`https://www.udemy.com/courses/search/?locale=en_US&p=1&persist_locale=&q=javascript&src=ukw`]);
 
 
 
