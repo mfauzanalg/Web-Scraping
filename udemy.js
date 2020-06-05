@@ -13,21 +13,21 @@ class udemyPage {
     
     async init(udemy) {
         this.elements = await this.getSelector();
-        this.browser = await puppeteer.launch({ headless: true });
+        this.browser = await puppeteer.launch({ headless: false });
         this.page = await this.browser.newPage();
 
         await this.page.goto(UDEMY_URL(udemy));
 
         await this.page.setViewport({
-            width: 2000,
-            height: 5000,
+            width: 1000,
+            height: 1080,
           });
       
     }
 
     async parseResult(){
          // wait page to load
-         await this.page.waitForSelector(this.elements.titleSelector, {timeout: 90000});
+        await this.page.waitForSelector(this.elements.titleSelector, {timeout: 90000});
         //  await this.page.waitForSelector(this.elements.imageSelector, {timeout: 30000});
         //  await this.page.waitForSelector(this.elements.descSelector, {timeout: 30000});
         //  await this.page.waitForSelector(this.elements.authorSelector, {timeout: 30000});
@@ -39,13 +39,17 @@ class udemyPage {
         //  await this.page.waitForSelector(this.elements.lectureSelector, {timeout: 30000});
         //  await this.page.waitForSelector(this.elements.levelSelector, {timeout: 30000});
         //  await this.page.waitForSelector(this.elements.urlSelector, {timeout: 30000});
-         await this.page.waitFor(3000);
+
+         await this.page.waitFor(5000);
          await this.autoScroll(this.page);
 
         const elements = this.elements;
 
+        await this.page.waitFor(10000);
+
         let extractor = await this.page.evaluate((elements) => {
             // window.scrollBy(0, window.innerHeight);
+           
 
             // select elements you want to extract
             async function getDoc() {
@@ -67,28 +71,29 @@ class udemyPage {
                 return doc;
             }
 
-            return getDoc().then((res) => {
+            let fauzan = getDoc().then((res) => {
                 let infoArray = [];
                 for (let i = 0; i < res.titleNodeList.length; i++) {
                     infoArray[i] = {
                       no : i,
                       title: res.titleNodeList[i].innerText,
-                      image: res.imageNodeList[i].getAttribute('src'),
-                      desc: res.descNodeList[i].innerText,
-                      author: res.authorNodeList[i].innerText,
-                      rating: res.ratingNodeList[i].innerText.replace('Rating: res.', '').replace(' out of 5', ''),
-                      review: res.reviewNodeList[i].innerText.replace(' reviews', ''),
-                      basePrice: res.basePriceNodeList[i].innerText,
-                      discPrice: res.discPriceNodeList[i].textContent,
-                      duration: res.durationNodeList[i].textContent,
-                      numOfLecture: res.lectureNodeList[i].textContent,
-                      level: res.levelNodeList[i].textContent,
-                      url: res.urlNodeList[i].getAttribute('href')
+                      image: res.imageNodeList[i] ? res.imageNodeList[i].getAttribute('src') : " ",
+                      desc: res.descNodeList[i] ? res.descNodeList[i].innerText : 'undefined',
+                      author: res.authorNodeList[i] ? res.authorNodeList[i].innerText : 'undefined',
+                      rating: res.ratingNodeList[i] ? res.ratingNodeList[i].innerText.replace('Rating: res.', '').replace(' out of 5', '') : 'undefined',
+                      review: res.reviewNodeList[i] ? res.reviewNodeList[i].innerText.replace(' reviews', '') : 'undefined',
+                      basePrice: res.basePriceNodeList[i] ? res.basePriceNodeList[i].innerText : 'undefined',
+                      discPrice: res.discPriceNodeList[i] ? res.discPriceNodeList[i].textContent : 'undefined',
+                      duration: res.discPriceNodeList[i] ? res.durationNodeList[i].textContent : 'undefined',
+                      numOfLecture: res.lectureNodeList[i] ? res.lectureNodeList[i].innerText : 'undefined',
+                      level: res.levelNodeList[i] ? res.levelNodeList[i].textContent : 'undefined',
+                      url: res.urlNodeList[i] ? res.urlNodeList[i].getAttribute('href') : ' '
                     };
                 }
                 return infoArray;
             })
 
+            return fauzan;
             
         }, elements);
         
