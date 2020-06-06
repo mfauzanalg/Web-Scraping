@@ -13,14 +13,17 @@ class udemyPage {
     
     async init(udemy) {
         this.elements = await this.getSelector();
-        this.browser = await puppeteer.launch({ headless: false });
+        this.browser = await puppeteer.launch({  
+            headless: false, // The browser is visible
+            ignoreHTTPSErrors: true});
+
         this.page = await this.browser.newPage();
 
         await this.page.goto(UDEMY_URL(udemy));
 
         await this.page.setViewport({
-            width: 1000,
-            height: 1080,
+            width: 1300,
+            height: 9000,
           });
       
     }
@@ -28,24 +31,13 @@ class udemyPage {
     async parseResult(){
          // wait page to load
         await this.page.waitForSelector(this.elements.titleSelector, {timeout: 90000});
-        //  await this.page.waitForSelector(this.elements.imageSelector, {timeout: 30000});
-        //  await this.page.waitForSelector(this.elements.descSelector, {timeout: 30000});
-        //  await this.page.waitForSelector(this.elements.authorSelector, {timeout: 30000});
-        //  await this.page.waitForSelector(this.elements.ratingSelector, {timeout: 30000});
-        //  await this.page.waitForSelector(this.elements.reviewSelector, {timeout: 30000});
-        //  await this.page.waitForSelector(this.elements.basePriceSelector, {timeout: 30000});
-        //  await this.page.waitForSelector(this.elements.discPriceSelector, {timeout: 30000});
-        //  await this.page.waitForSelector(this.elements.durationSelector, {timeout: 30000});
-        //  await this.page.waitForSelector(this.elements.lectureSelector, {timeout: 30000});
-        //  await this.page.waitForSelector(this.elements.levelSelector, {timeout: 30000});
-        //  await this.page.waitForSelector(this.elements.urlSelector, {timeout: 30000});
 
-         await this.page.waitFor(5000);
-         await this.autoScroll(this.page);
+        await this.page.waitFor(2000);
+        await this.autoScroll(this.page);
 
         const elements = this.elements;
 
-        await this.page.waitFor(10000);
+        await this.page.waitFor(2000);
 
         let extractor = await this.page.evaluate((elements) => {
             // window.scrollBy(0, window.innerHeight);
@@ -80,13 +72,13 @@ class udemyPage {
                       image: res.imageNodeList[i] ? res.imageNodeList[i].getAttribute('src') : " ",
                       desc: res.descNodeList[i] ? res.descNodeList[i].innerText : 'undefined',
                       author: res.authorNodeList[i] ? res.authorNodeList[i].innerText : 'undefined',
-                      rating: res.ratingNodeList[i] ? res.ratingNodeList[i].innerText.replace('Rating: res.', '').replace(' out of 5', '') : 'undefined',
-                      review: res.reviewNodeList[i] ? res.reviewNodeList[i].innerText.replace(' reviews', '') : 'undefined',
-                      basePrice: res.basePriceNodeList[i] ? res.basePriceNodeList[i].innerText : 'undefined',
-                      discPrice: res.discPriceNodeList[i] ? res.discPriceNodeList[i].textContent : 'undefined',
-                      duration: res.discPriceNodeList[i] ? res.durationNodeList[i].textContent : 'undefined',
+                      rating: res.ratingNodeList[i] ? res.ratingNodeList[i].innerText : 'undefined',
+                      review: res.reviewNodeList[i] ? res.reviewNodeList[i].innerText : 'undefined',
+                      basePrice: res.basePriceNodeList[i] ? res.basePriceNodeList[i].innerText : 'undefined base price',
+                      discPrice: res.discPriceNodeList[i] ? res.discPriceNodeList[i].textContent : 'undefined disc price',
+                      duration: res.discPriceNodeList[i] ? res.durationNodeList[i].innerText : 'undefined duration',
                       numOfLecture: res.lectureNodeList[i] ? res.lectureNodeList[i].innerText : 'undefined',
-                      level: res.levelNodeList[i] ? res.levelNodeList[i].textContent : 'undefined',
+                      level: res.levelNodeList[i] ? res.levelNodeList[i].textContent : 'All level',
                       url: res.urlNodeList[i] ? res.urlNodeList[i].getAttribute('href') : ' '
                     };
                 }
@@ -117,7 +109,6 @@ class udemyPage {
                 
                 if (nextPageButton) {
                     nextPageButton.click();
-                    console.log('wawa');
                     await this.page.waitForSelector(this.elements.titleSelector, {timeout: 30000});
                     
                 } else{
@@ -147,8 +138,8 @@ class udemyPage {
             reviewSelector: `${mainContainer} > .course-card--star-rating-wrapper--wwCqc > .udlite-sr-only`,
             imageSelector: `.course-card--large--1BVxY .course-card--image-wrapper--Sxd90 > .course-card--course-image--2sjYP`,
             ratingSelector: `${mainContainer} > .course-card--star-rating-wrapper--wwCqc > .star-rating--star-wrapper--2eczq > .udlite-sr-only`,
-            discPriceSelector: '.course-card--large--1BVxY > div.course-card--main-content--3xEIw > div.price-text--container--Ws-fP.course-card--price-text-container--2sb8G > div.price-text--price-part--Tu6MH.course-card--discount-price--3TaBk.udlite-heading-md > span:nth-child(2) > span',
-            basePriceSelector: '.course-card--large--1BVxY > div.course-card--main-content--3xEIw > div.price-text--container--Ws-fP.course-card--price-text-container--2sb8G > div.price-text--price-part--Tu6MH.price-text--original-price--2e-F5.course-card--list-price--2AO6G.udlite-text-sm > div > span:nth-child(2) > s > span',
+            discPriceSelector: 'div.course-card--main-content--3xEIw.course-card--has-price-text--1Ikr0 > div.price-text--container--Ws-fP.course-card--price-text-container--2sb8G > div.price-text--price-part--Tu6MH.course-card--discount-price--3TaBk.udlite-heading-md > span:nth-child(2) > span',
+            basePriceSelector: 'div.course-card--main-content--3xEIw.course-card--has-price-text--1Ikr0 > div.price-text--container--Ws-fP.course-card--price-text-container--2sb8G > div.price-text--price-part--Tu6MH.price-text--original-price--2e-F5.course-card--list-price--2AO6G.udlite-text-sm > div > span:nth-child(2) > s > span',
         };
         return elements;
     }
