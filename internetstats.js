@@ -1,18 +1,14 @@
 const puppeteer = require('puppeteer');
 
 class internetPage {
-    constructor(){
+    constructor(browser){
         this.elements = null;
-        this.browser = null;
+        this.browser = browser;
         this.page = null;
     }
     
     async init(url) {
         this.elements = await this.getSelector();
-        this.browser = await puppeteer.launch({  
-            headless: false,
-            ignoreHTTPSErrors: true});
-
         this.page = await this.browser.newPage();
 
         await this.page.goto(url, {
@@ -43,14 +39,15 @@ class internetPage {
                 idx.penetration = 4;
                 idx.usersInRegion = 5;
                 idx.facebookSubs = 6;
-                if (region == 'Asia') {
+                if (region == 'Asia' || region == 'Middle East') {
                     idx.from = 2;
-                    rowArrList =  Array.from(document.querySelectorAll(elements.rowAsiaSelector));
+                    rowArrList =  Array.from(document.querySelectorAll(elements.rowAsiaMidEastSelector));
                     idx.to = rowArrList.length - 3;
+                    if (region == 'Middle East') idx.to = rowArrList.length - 4;
                 }
                 else if (region == 'America'){
                     idx.from = 3;
-                    rowArrList =  Array.from(document.querySelectorAll(elements.rowAmericaSelector));
+                    rowArrList =  Array.from(document.querySelectorAll(elements.rowAmericaEuropeSelector));
                     idx.to = rowArrList.length - 2;
                 }
                 else if (region == 'Africa') {
@@ -58,12 +55,28 @@ class internetPage {
                     rowArrList =  Array.from(document.querySelectorAll(elements.rowAfricaSelector));
                     idx.to = rowArrList.length - 4;
                 }
+                else if (region == 'Oceania'){
+                    idx.from = 2;
+                    rowArrList =  Array.from(document.querySelectorAll(elements.rowOceaniaSelector));
+                    idx.to = rowArrList.length - 2;
+                }
             }
             else if (region == 'Europe' || region == 'European Union'){
                 idx.internetUsers = 2;
                 idx.penetration = 3;
                 idx.usersInRegion = 4;
                 idx.facebookSubs = 5;
+
+                if (region == 'Europe') {
+                    idx.from = 2;
+                    rowArrList =  Array.from(document.querySelectorAll(elements.rowAmericaEuropeSelector));
+                    idx.to = rowArrList.length - 2;
+                }
+                else if (region == 'European Union'){
+                    idx.from = 6;
+                    rowArrList =  Array.from(document.querySelectorAll(elements.rowEUSelector));
+                    idx.to = rowArrList.length - 3;
+                }
             }
 
             for (let i = idx.from; i < idx.to; i++){
@@ -88,9 +101,11 @@ class internetPage {
 
     getSelector(){
         const elements = {
-            rowAsiaSelector: `td td tr`,
-            rowAmericaSelector: `p+ table tr`,
+            rowAsiaMidEastSelector: `td td tr`,
+            rowAmericaEuropeSelector: `p+ table tr`,
             rowAfricaSelector: `p+ table table tr`,
+            rowEUSelector: `table:nth-child(2) tr`,
+            rowOceaniaSelector: `center center tr`,
         }
         return elements;
     }

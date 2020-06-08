@@ -1321,5 +1321,1148 @@
     "penetration": "53.7 %",
     "usersInRegion": "49,252 %",
     "facebookSubs": "2,253,000"
+  },
+  {
+    "name": "Zimbabwe",
+    "region": "Africa",
+    "population": "14,862,924",
+    "internetUsers": "8,400,000",
+    "penetration": "56.5 %",
+    "usersInRegion": "16,700 %",
+    "facebookSubs": "994,000"
+  },
+  {
+    "name": "Albania",
+    "region": "Europe",
+    "population": "2,938,428",
+    "internetUsers": "2,160,000",
+    "penetration": "73.5 %",
+    "usersInRegion": "0.3 %",
+    "facebookSubs": "1,400,000"
+  },
+  {
+    "name": "Andorra",
+    "region": "Europe",
+    "population": "77,072",
+    "internetUsers": "76,242",
+    "penetration": "98.9 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "42,000"
+  },
+  {
+    "name": "Austria",
+    "region": "Europe",
+    "population": "8,766,201",
+    "internetUsers": "7,708,997",
+    "penetration": "87.9 %",
+    "usersInRegion": "1.1 %",
+    "facebookSubs": "3,700,000"
+  },
+  {
+    "name": "Belarus",
+    "region": "Europe",
+    "population": "9,433,874",
+    "internetUsers": "7,521,628",
+    "penetration": "79.7 %",
+    "usersInRegion": "1.0 %",
+    "facebookSubs": "3,850,000"
+  },
+  {
+    "name": "Belgium",
+    "region": "Europe",
+    "population": "11,562,784",
+    "internetUsers": "10,857,126",
+    "penetration": "93.9 %",
+    "usersInRegion": "1.5 %",
+    "facebookSubs": "6,500,000"
+  },
+  {
+    "name": "Bosnia-Herzegovina",
+    "region": "Europe",
+    "population": "3,501,774",
+    "internetUsers": "2,828,846",
+    "penetration": "80.8 %",
+    "usersInRegion": "0.4 %",
+    "facebookSubs": "1,500,000"
+  },
+  {
+    "name": "Bulgaria",
+    "region": "Europe",
+    "population": "6,988,739",
+    "internetUsers": "4,663,065",
+    "penetration": "66.7 %",
+    "usersInRegion": "0.6 %",
+    "facebookSubs": "3,300,000"
+  },
+  {
+    "name": "Croatia",
+    "region": "Europe",
+    "population": "4,140,148",
+    "internetUsers": "3,787,838",
+    "penetration": "91.5 %",
+    "usersInRegion": "0.5 %",
+    "facebookSubs": "1,800,000"
+  },
+  {
+    "name": "Cyprus",
+    "region": "Europe",
+    "population": "1,198,427",
+    "internetUsers": "1,011,831",
+    "penetration": "84.4%",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "870,000"
+  },
+  {
+    "name": "Czech Republic",
+    "region": "Europe",
+    "population": "10,630,589",
+    "internetUsers": "9,323,428",
+    "penetration": "87.7 %",
+    "usersInRegion": "1.3 %",
+    "facebookSubs": "4,600,000"
+  },
+  {
+    "name": "Denmark",
+    "region": "Europe",
+    "population": "5,775,224",
+    "internetUsers": "5,649,494",
+    "penetration": "97.8 %",
+    "usersInRegion": "0.8 %",
+    "facebookSubs": "3,700,000"
+  },
+  {
+    "name": "Estonia",
+    "region": "Europe",
+    "population": "1,303,798",
+    "internetUsers": "1,276,521",
+    "penetration": "97.9 %",
+    "usersInRegion": "0.2 %",
+    "facebookSubs": "620,000"
+  },
+  {
+    "name": "Faroe Islands",
+    "region": "Europe",
+    "population": "49,692",
+    "internetUsers": "48,489",
+    "penetration": "97.6 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "33,000"
+  },
+  {
+    "name": "Finland",
+    "region": "Europe",
+    "population": "5,561,389",
+    "internetUsers": "5,225,678",
+    "penetration": "94.0 %",
+    "usersInRegion": "0.7 %",
+    "facebookSubs": "2,700,000"
+  },
+  {
+    "name": "France",
+    "region": "Europe",
+    "population": "65,480,710",
+    "internetUsers": "60,421,689",
+    "penetration": "92.3 %",
+    "usersInRegion": "8.3 %",
+    "facebookSubs": "33,000,000"
+  },
+  {
+    "name": "Germany",
+    "region": "Europe",
+    "population": "82,438,639",
+    "internetUsers": "79,127,551",
+    "penetration": "96.0 %",
+    "usersInRegion": "10.9 %",
+    "facebookSubs": "31,000,000"
+  },
+  {
+    "name": "Gibraltar",
+    "region": "Europe",
+    "population": "34,879",
+    "internetUsers": "32,939",
+    "penetration": "94.4 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "23,000"
+  },
+  {
+    "name": "Greece",
+    "region": "Europe",
+    "population": "11,124,603",
+    "internetUsers": "8,115,397",
+    "penetration": "72.9 %",
+    "usersInRegion": "1.1 %",
+    "facebookSubs": "5,000,000"
+  },
+  {
+    "name": "Guernsey & Alderney",
+    "region": "Europe",
+    "population": "66,731",
+    "internetUsers": "55,807",
+    "penetration": "83.6 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "34,000"
+  },
+  {
+    "name": "Hungary",
+    "region": "Europe",
+    "population": "9,655,361",
+    "internetUsers": "8,588,776",
+    "penetration": "89.0 %",
+    "usersInRegion": "1.2 %",
+    "facebookSubs": "5,300,000"
+  },
+  {
+    "name": "Iceland",
+    "region": "Europe",
+    "population": "340,566",
+    "internetUsers": "337,194",
+    "penetration": "99.0 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "250,000"
+  },
+  {
+    "name": "Ireland",
+    "region": "Europe",
+    "population": "4,847,139",
+    "internetUsers": "4,453,436",
+    "penetration": "91.9 %",
+    "usersInRegion": "0.6 %",
+    "facebookSubs": "2,700,000"
+  },
+  {
+    "name": "Italy",
+    "region": "Europe",
+    "population": "59,216,525",
+    "internetUsers": "54,798,299",
+    "penetration": "92.5 %",
+    "usersInRegion": "7.5 %",
+    "facebookSubs": "30,000,000"
+  },
+  {
+    "name": "Jersey",
+    "region": "Europe",
+    "population": "100,097",
+    "internetUsers": "70,000",
+    "penetration": "69.9 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "63,000"
+  },
+  {
+    "name": "Kosovo",
+    "region": "Europe",
+    "population": "1,907,592",
+    "internetUsers": "1,693,942",
+    "penetration": "88.8 %",
+    "usersInRegion": "0.2 %",
+    "facebookSubs": "910,000"
+  },
+  {
+    "name": "Latvia",
+    "region": "Europe",
+    "population": "1,911,108",
+    "internetUsers": "1,663,739",
+    "penetration": "87.1 %",
+    "usersInRegion": "0.2 %",
+    "facebookSubs": "740,000"
+  },
+  {
+    "name": "Liechtenstein",
+    "region": "Europe",
+    "population": "38,404",
+    "internetUsers": "37,674",
+    "penetration": "98.1 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "14,000"
+  },
+  {
+    "name": "Lithuania",
+    "region": "Europe",
+    "population": "2,864,459",
+    "internetUsers": "2,603,900",
+    "penetration": "90.9 %",
+    "usersInRegion": "0.4 %",
+    "facebookSubs": "1,400,000"
+  },
+  {
+    "name": "Luxembourg",
+    "region": "Europe",
+    "population": "596,992",
+    "internetUsers": "584,037",
+    "penetration": "97.8 %",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "320,000"
+  },
+  {
+    "name": "Malta",
+    "region": "Europe",
+    "population": "433,245",
+    "internetUsers": "360,056",
+    "penetration": "83.1 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "320,000"
+  },
+  {
+    "name": "Man, Isle of",
+    "region": "Europe",
+    "population": "85,369",
+    "internetUsers": "52,000",
+    "penetration": "60.9 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "50,000"
+  },
+  {
+    "name": "Moldova",
+    "region": "Europe",
+    "population": "4,029,750",
+    "internetUsers": "3,067,446",
+    "penetration": "76.1 %",
+    "usersInRegion": "0.4 %",
+    "facebookSubs": "800,000"
+  },
+  {
+    "name": "Monaco",
+    "region": "Europe",
+    "population": "39,102",
+    "internetUsers": "38,124",
+    "penetration": "97.5 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "13,000"
+  },
+  {
+    "name": "Montenegro",
+    "region": "Europe",
+    "population": "629,355",
+    "internetUsers": "449,989",
+    "penetration": "71.5 %",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "320,000"
+  },
+  {
+    "name": "Netherlands",
+    "region": "Europe",
+    "population": "17,132,908",
+    "internetUsers": "16,383,879",
+    "penetration": "95.6 %",
+    "usersInRegion": "2.3 %",
+    "facebookSubs": "9,800,000"
+  },
+  {
+    "name": "North Macedonia",
+    "region": "Europe",
+    "population": "2,086,720",
+    "internetUsers": "1,652,056",
+    "penetration": "79.2 %",
+    "usersInRegion": "0.2 %",
+    "facebookSubs": "1,000,000"
+  },
+  {
+    "name": "Norway",
+    "region": "Europe",
+    "population": "5,400,916",
+    "internetUsers": "5,311,892",
+    "penetration": "98.4 %",
+    "usersInRegion": "0.7 %",
+    "facebookSubs": "3,400,000"
+  },
+  {
+    "name": "Poland",
+    "region": "Europe",
+    "population": "38,028,278",
+    "internetUsers": "29,757,099",
+    "penetration": "78.2 %",
+    "usersInRegion": "4.1 %",
+    "facebookSubs": "14,000,000"
+  },
+  {
+    "name": "Portugal",
+    "region": "Europe",
+    "population": "10,254,666",
+    "internetUsers": "8,015,519",
+    "penetration": "78.2 %",
+    "usersInRegion": "1.1 %",
+    "facebookSubs": "5,800,000"
+  },
+  {
+    "name": "Romania",
+    "region": "Europe",
+    "population": "19,483,360",
+    "internetUsers": "14,387,477",
+    "penetration": "73.8 %",
+    "usersInRegion": "2.0 %",
+    "facebookSubs": "8,900,000"
+  },
+  {
+    "name": "Russia",
+    "region": "Europe",
+    "population": "143,895,551",
+    "internetUsers": "116,353,942",
+    "penetration": "80.9 %",
+    "usersInRegion": "16.0 %",
+    "facebookSubs": "13,100,000"
+  },
+  {
+    "name": "San Marino",
+    "region": "Europe",
+    "population": "33,683",
+    "internetUsers": "20,270",
+    "penetration": "60.2 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "7,900"
+  },
+  {
+    "name": "Serbia",
+    "region": "Europe",
+    "population": "8,733,407",
+    "internetUsers": "6,406,827",
+    "penetration": "73.4 %",
+    "usersInRegion": "0.9 %",
+    "facebookSubs": "3,400,000"
+  },
+  {
+    "name": "Slovakia",
+    "region": "Europe",
+    "population": "5,450,987",
+    "internetUsers": "4,629,641",
+    "penetration": "84.9 %",
+    "usersInRegion": "0.6 %",
+    "facebookSubs": "3,200,000"
+  },
+  {
+    "name": "Slovenia",
+    "region": "Europe",
+    "population": "2,081,900",
+    "internetUsers": "1,663,795",
+    "penetration": "79.9 %",
+    "usersInRegion": "0.2 %",
+    "facebookSubs": "910,000"
+  },
+  {
+    "name": "Spain",
+    "region": "Europe",
+    "population": "46,441,049",
+    "internetUsers": "42,961,230",
+    "penetration": "92.5 %",
+    "usersInRegion": "5.9 %",
+    "facebookSubs": "23,000,000"
+  },
+  {
+    "name": "Svalbard & Jan Mayen",
+    "region": "Europe",
+    "population": "2,583",
+    "internetUsers": "1,700",
+    "penetration": "65.8 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "1,700"
+  },
+  {
+    "name": "Sweden",
+    "region": "Europe",
+    "population": "10,053,135",
+    "internetUsers": "9,692,227",
+    "penetration": "96.4 %",
+    "usersInRegion": "1.3 %",
+    "facebookSubs": "6,300,000"
+  },
+  {
+    "name": "Switzerland",
+    "region": "Europe",
+    "population": "8,608,259",
+    "internetUsers": "8,066,800",
+    "penetration": "93.7 %",
+    "usersInRegion": "1.1 %",
+    "facebookSubs": "3,700,000"
+  },
+  {
+    "name": "Turkey",
+    "region": "Europe",
+    "population": "82,961,805",
+    "internetUsers": "69,107,183",
+    "penetration": "83.3 %",
+    "usersInRegion": "9.5 %",
+    "facebookSubs": "44,000,000"
+  },
+  {
+    "name": "Ukraine",
+    "region": "Europe",
+    "population": "43,795,220",
+    "internetUsers": "40,912,381",
+    "penetration": "93.4 %",
+    "usersInRegion": "5.6 %",
+    "facebookSubs": "9,500,000"
+  },
+  {
+    "name": "United Kingdom",
+    "region": "Europe",
+    "population": "66,959,016",
+    "internetUsers": "63,544,106",
+    "penetration": "94.9 %",
+    "usersInRegion": "8.7 %",
+    "facebookSubs": "44,000,000"
+  },
+  {
+    "name": "Vatican City State",
+    "region": "Europe",
+    "population": "799",
+    "internetUsers": "480",
+    "penetration": "60.1 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "20"
+  },
+  {
+    "name": "Austria",
+    "region": "European Union",
+    "population": "8,766,201",
+    "internetUsers": "7,708,997",
+    "penetration": "87.9 %",
+    "usersInRegion": "1.7 %",
+    "facebookSubs": "3,700,000"
+  },
+  {
+    "name": "Belgium",
+    "region": "European Union",
+    "population": "11,562,784",
+    "internetUsers": "10,857,126",
+    "penetration": "93.9 %",
+    "usersInRegion": "2.4 %",
+    "facebookSubs": "6,500.000"
+  },
+  {
+    "name": "Bulgaria",
+    "region": "European Union",
+    "population": "6,988,739",
+    "internetUsers": "4,663,065",
+    "penetration": "66.7 %",
+    "usersInRegion": "1.0 %",
+    "facebookSubs": "3,300,000"
+  },
+  {
+    "name": "Croatia",
+    "region": "European Union",
+    "population": "4,140,148",
+    "internetUsers": "3,787,838",
+    "penetration": "91.5 %",
+    "usersInRegion": "0.8 %",
+    "facebookSubs": "1,800,000"
+  },
+  {
+    "name": "Cyprus",
+    "region": "European Union",
+    "population": "1,198,427",
+    "internetUsers": "1,011,831",
+    "penetration": "84.4 %",
+    "usersInRegion": "0.2 %",
+    "facebookSubs": "870,000"
+  },
+  {
+    "name": "Czech Republic",
+    "region": "European Union",
+    "population": "10,630,589",
+    "internetUsers": "9,323,428",
+    "penetration": "87.7 %",
+    "usersInRegion": "2.0 %",
+    "facebookSubs": "4,600,000"
+  },
+  {
+    "name": "Denmark",
+    "region": "European Union",
+    "population": "5,775,224",
+    "internetUsers": "5,649,494",
+    "penetration": "97.8 %",
+    "usersInRegion": "1.2 %",
+    "facebookSubs": "3,700,000"
+  },
+  {
+    "name": "Estonia",
+    "region": "European Union",
+    "population": "1,303,798",
+    "internetUsers": "1,276,521",
+    "penetration": "97.9 %",
+    "usersInRegion": "0.3 %",
+    "facebookSubs": "620,000"
+  },
+  {
+    "name": "Finland",
+    "region": "European Union",
+    "population": "5,561,389",
+    "internetUsers": "5,225,678",
+    "penetration": "94.0 %",
+    "usersInRegion": "1.1 %",
+    "facebookSubs": "2,700,000"
+  },
+  {
+    "name": "France",
+    "region": "European Union",
+    "population": "65,480,710",
+    "internetUsers": "60,421,689",
+    "penetration": "92.3 %",
+    "usersInRegion": "13.1 %",
+    "facebookSubs": "33,000,000"
+  },
+  {
+    "name": "Germany",
+    "region": "European Union",
+    "population": "82,438,639",
+    "internetUsers": "79,127,551",
+    "penetration": "96.0 %",
+    "usersInRegion": "17.2 %",
+    "facebookSubs": "31,000,000"
+  },
+  {
+    "name": "Greece",
+    "region": "European Union",
+    "population": "11,124,603",
+    "internetUsers": "8,115,397",
+    "penetration": "72.9 %",
+    "usersInRegion": "1.8 %",
+    "facebookSubs": "5,000,000"
+  },
+  {
+    "name": "Hungary",
+    "region": "European Union",
+    "population": "9,655,361",
+    "internetUsers": "8,588,776",
+    "penetration": "89.0 %",
+    "usersInRegion": "1.9 %",
+    "facebookSubs": "5,300,000"
+  },
+  {
+    "name": "Ireland",
+    "region": "European Union",
+    "population": "4,847,139",
+    "internetUsers": "4,453,436",
+    "penetration": "91.9 %",
+    "usersInRegion": "1.0 %",
+    "facebookSubs": "2,700,000"
+  },
+  {
+    "name": "Italy",
+    "region": "European Union",
+    "population": "59,216,525",
+    "internetUsers": "54,798,299",
+    "penetration": "92.5 %",
+    "usersInRegion": "11.9 %",
+    "facebookSubs": "30,000,000"
+  },
+  {
+    "name": "Latvia",
+    "region": "European Union",
+    "population": "1,911,108",
+    "internetUsers": "1,663,739",
+    "penetration": "87.1 %",
+    "usersInRegion": "0.4 %",
+    "facebookSubs": "740,000"
+  },
+  {
+    "name": "Lithuania",
+    "region": "European Union",
+    "population": "2,864,459",
+    "internetUsers": "2,603,900",
+    "penetration": "90.9 %",
+    "usersInRegion": "0.6 %",
+    "facebookSubs": "1,400.000"
+  },
+  {
+    "name": "Luxembourg",
+    "region": "European Union",
+    "population": "596,992",
+    "internetUsers": "584,037",
+    "penetration": "97.8 %",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "320,000"
+  },
+  {
+    "name": "Malta",
+    "region": "European Union",
+    "population": "433,245",
+    "internetUsers": "360,056",
+    "penetration": "83.1 %",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "320,000"
+  },
+  {
+    "name": "Netherlands",
+    "region": "European Union",
+    "population": "17,132,908",
+    "internetUsers": "16,383,879",
+    "penetration": "95.6 %",
+    "usersInRegion": "3.6 %",
+    "facebookSubs": "9,800,000"
+  },
+  {
+    "name": "Poland",
+    "region": "European Union",
+    "population": "38,028,278",
+    "internetUsers": "29,757,099",
+    "penetration": "78.2 %",
+    "usersInRegion": "6.5 %",
+    "facebookSubs": "14,000,000"
+  },
+  {
+    "name": "Portugal",
+    "region": "European Union",
+    "population": "10,254,666",
+    "internetUsers": "8,015,519",
+    "penetration": "78.2 %",
+    "usersInRegion": "1.7 %",
+    "facebookSubs": "5,800,000"
+  },
+  {
+    "name": "Romania",
+    "region": "European Union",
+    "population": "19,483,360",
+    "internetUsers": "14,387,477",
+    "penetration": "73.8 %",
+    "usersInRegion": "3.1 %",
+    "facebookSubs": "8,900,000"
+  },
+  {
+    "name": "Slovakia",
+    "region": "European Union",
+    "population": "5,450,987",
+    "internetUsers": "4,629,641",
+    "penetration": "84.9 %",
+    "usersInRegion": "1.0 %",
+    "facebookSubs": "3,200,000"
+  },
+  {
+    "name": "Slovenia",
+    "region": "European Union",
+    "population": "2,081,900",
+    "internetUsers": "1,663,795",
+    "penetration": "79.9 %",
+    "usersInRegion": "0.4 %",
+    "facebookSubs": "910,000"
+  },
+  {
+    "name": "Spain",
+    "region": "European Union",
+    "population": "46,441,049",
+    "internetUsers": "42,961,230",
+    "penetration": "92.5 %",
+    "usersInRegion": "9.3 %",
+    "facebookSubs": "23,000,000"
+  },
+  {
+    "name": "Sweden",
+    "region": "European Union",
+    "population": "10,053,135",
+    "internetUsers": "9,692,227",
+    "penetration": "96.4 %",
+    "usersInRegion": "2.1 %",
+    "facebookSubs": "6,300,000"
+  },
+  {
+    "name": "United Kingdom",
+    "region": "European Union",
+    "population": "66,959,016",
+    "internetUsers": "63,544,106",
+    "penetration": "94.9 %",
+    "usersInRegion": "13.8 %",
+    "facebookSubs": "44,000,000"
+  },
+  {
+    "name": "Bahrain",
+    "region": "Middle East",
+    "population": "1,701,575",
+    "internetUsers": "1,615,620",
+    "penetration": "94.9 %",
+    "usersInRegion": "0.9 %",
+    "facebookSubs": "1,352,500"
+  },
+  {
+    "name": "Iran",
+    "region": "Middle East",
+    "population": "83,992,949",
+    "internetUsers": "67,602,731",
+    "penetration": "80.5 %",
+    "usersInRegion": "36.9 %",
+    "facebookSubs": "40,000,000"
+  },
+  {
+    "name": "Iraq",
+    "region": "Middle East",
+    "population": "40,222,493",
+    "internetUsers": "21,276,000",
+    "penetration": "52.9 %",
+    "usersInRegion": "11.6 %",
+    "facebookSubs": "22,030,000"
+  },
+  {
+    "name": "Israel",
+    "region": "Middle East",
+    "population": "8,655,535",
+    "internetUsers": "7,002,759",
+    "penetration": "80.9 %",
+    "usersInRegion": "3.8 %",
+    "facebookSubs": "5,920,000"
+  },
+  {
+    "name": "Jordan",
+    "region": "Middle East",
+    "population": "10,203,134",
+    "internetUsers": "8,700,000",
+    "penetration": "85.3 %",
+    "usersInRegion": "4.7 %",
+    "facebookSubs": "5,755,000"
+  },
+  {
+    "name": "Kuwait",
+    "region": "Middle East",
+    "population": "4,270,571",
+    "internetUsers": "4,231,978",
+    "penetration": "99.1 %",
+    "usersInRegion": "2.3 %",
+    "facebookSubs": "4,093,000"
+  },
+  {
+    "name": "Lebanon",
+    "region": "Middle East",
+    "population": "6,825,445",
+    "internetUsers": "5,546,494",
+    "penetration": "81.3 %",
+    "usersInRegion": "3.0 %",
+    "facebookSubs": "3,967,000"
+  },
+  {
+    "name": "Oman",
+    "region": "Middle East",
+    "population": "5,106,626",
+    "internetUsers": "4,011,004",
+    "penetration": "78.5 %",
+    "usersInRegion": "2.2 %",
+    "facebookSubs": "2,635,400"
+  },
+  {
+    "name": "Palestine (State of)",
+    "region": "Middle East",
+    "population": "5,101,414",
+    "internetUsers": "3,381,787",
+    "penetration": "66.3 %",
+    "usersInRegion": "1.8 %",
+    "facebookSubs": "2,677,000"
+  },
+  {
+    "name": "Qatar",
+    "region": "Middle East",
+    "population": "2,881,053",
+    "internetUsers": "2,942,000",
+    "penetration": "99.6 %",
+    "usersInRegion": "1.6 %",
+    "facebookSubs": "2,942,000"
+  },
+  {
+    "name": "Saudi Arabia",
+    "region": "Middle East",
+    "population": "34,813,871",
+    "internetUsers": "31,856,652",
+    "penetration": "91.5 %",
+    "usersInRegion": "17.4 %",
+    "facebookSubs": "23,720,000"
+  },
+  {
+    "name": "Syria",
+    "region": "Middle East",
+    "population": "17,500,658",
+    "internetUsers": "7,609,286",
+    "penetration": "43.5 %",
+    "usersInRegion": "4.2 %",
+    "facebookSubs": "7,609,286"
+  },
+  {
+    "name": "United Arab Emirates",
+    "region": "Middle East",
+    "population": "9,890,402",
+    "internetUsers": "9,532,016",
+    "penetration": "96.4 %",
+    "usersInRegion": "5.2 %",
+    "facebookSubs": "8,737,000"
+  },
+  {
+    "name": "Yemen",
+    "region": "Middle East",
+    "population": "29,825,964",
+    "internetUsers": "7,903,772",
+    "penetration": "26.5 %",
+    "usersInRegion": "4.3 %",
+    "facebookSubs": "2,552,100"
+  },
+  {
+    "name": "American Samoa",
+    "region": "Oceania",
+    "population": "55,727",
+    "internetUsers": "24,000",
+    "penetration": "43.1 %",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "22,000"
+  },
+  {
+    "name": "Antarctica",
+    "region": "Oceania",
+    "population": "2,700",
+    "internetUsers": "4,400",
+    "penetration": "100.0 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "1,800"
+  },
+  {
+    "name": "Australia",
+    "region": "Oceania",
+    "population": "25,088,636",
+    "internetUsers": "21,711,706",
+    "penetration": "86.5 %",
+    "usersInRegion": "75.8 %",
+    "facebookSubs": "15,000,000"
+  },
+  {
+    "name": "Australia, Ext. Terr.",
+    "region": "Oceania",
+    "population": "1,651",
+    "internetUsers": "n/a",
+    "penetration": "n/a",
+    "usersInRegion": "n/a",
+    "facebookSubs": "n/a"
+  },
+  {
+    "name": "Christmas Island",
+    "region": "Oceania",
+    "population": "2,205",
+    "internetUsers": "1,000",
+    "penetration": "45.4 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "400"
+  },
+  {
+    "name": "Cocos (Keeling) Is.",
+    "region": "Oceania",
+    "population": "596",
+    "internetUsers": "80",
+    "penetration": "13.4%",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "70"
+  },
+  {
+    "name": "Cook Islands",
+    "region": "Oceania",
+    "population": "17,462",
+    "internetUsers": "11,377",
+    "penetration": "65.2 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "8,600"
+  },
+  {
+    "name": "Fiji",
+    "region": "Oceania",
+    "population": "918,757",
+    "internetUsers": "500,958",
+    "penetration": "54.5 %",
+    "usersInRegion": "1.7 %",
+    "facebookSubs": "470,000"
+  },
+  {
+    "name": "French Polynesia",
+    "region": "Oceania",
+    "population": "288,506",
+    "internetUsers": "209,744",
+    "penetration": "72.7 %",
+    "usersInRegion": "0.7 %",
+    "facebookSubs": "150,000"
+  },
+  {
+    "name": "Guam",
+    "region": "Oceania",
+    "population": "167,245",
+    "internetUsers": "134,649",
+    "penetration": "80.5 %",
+    "usersInRegion": "0.5 %",
+    "facebookSubs": "110,000"
+  },
+  {
+    "name": "Kiribati",
+    "region": "Oceania",
+    "population": "120,428",
+    "internetUsers": "32,947",
+    "penetration": "27.4%",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "30,000"
+  },
+  {
+    "name": "Marshall Islands",
+    "region": "Oceania",
+    "population": "53,211",
+    "internetUsers": "20,593",
+    "penetration": "38.7 %",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "20,000"
+  },
+  {
+    "name": "Micronesia",
+    "region": "Oceania",
+    "population": "106,983",
+    "internetUsers": "56,193",
+    "penetration": "52.5 %",
+    "usersInRegion": "0.2 %",
+    "facebookSubs": "21,000"
+  },
+  {
+    "name": "Nauru",
+    "region": "Oceania",
+    "population": "11,260",
+    "internetUsers": "6,418",
+    "penetration": "57.0 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "3,400"
+  },
+  {
+    "name": "New Caledonia",
+    "region": "Oceania",
+    "population": "283,376",
+    "internetUsers": "232,368",
+    "penetration": "82.0 %",
+    "usersInRegion": "0.8 %",
+    "facebookSubs": "150,000"
+  },
+  {
+    "name": "New Zealand",
+    "region": "Oceania",
+    "population": "4,792,409",
+    "internetUsers": "4,351,987",
+    "penetration": "90.8 %",
+    "usersInRegion": "15.2 %",
+    "facebookSubs": "3,100,000"
+  },
+  {
+    "name": "Niue",
+    "region": "Oceania",
+    "population": "1,618",
+    "internetUsers": "1,485",
+    "penetration": "91.2 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "820"
+  },
+  {
+    "name": "Norfolk Island",
+    "region": "Oceania",
+    "population": "1,748",
+    "internetUsers": "796",
+    "penetration": "45.5 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "80"
+  },
+  {
+    "name": "Northern Marianas",
+    "region": "Oceania",
+    "population": "55,246",
+    "internetUsers": "40,000",
+    "penetration": "72.4 %",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "36,000"
+  },
+  {
+    "name": "Palau",
+    "region": "Oceania",
+    "population": "22,206",
+    "internetUsers": "7,860",
+    "penetration": "35.4 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "5,800"
+  },
+  {
+    "name": "Papau New Guinea",
+    "region": "Oceania",
+    "population": "8,586,525",
+    "internetUsers": "962,550",
+    "penetration": "11.2 %",
+    "usersInRegion": "3.4 %",
+    "facebookSubs": "670,000"
+  },
+  {
+    "name": "Pitcairn Islands",
+    "region": "Oceania",
+    "population": "50",
+    "internetUsers": "170",
+    "penetration": "n/a",
+    "usersInRegion": "n/a",
+    "facebookSubs": "150"
+  },
+  {
+    "name": "Samoa",
+    "region": "Oceania",
+    "population": "198,909",
+    "internetUsers": "100,000",
+    "penetration": "50.3%",
+    "usersInRegion": "0.3 %",
+    "facebookSubs": "94,000"
+  },
+  {
+    "name": "Smaller Territories (4)",
+    "region": "Oceania",
+    "population": "3,902",
+    "internetUsers": "n/a",
+    "penetration": "n/a",
+    "usersInRegion": "n/a",
+    "facebookSubs": "n/a"
+  },
+  {
+    "name": "Solomon Islands",
+    "region": "Oceania",
+    "population": "635,254",
+    "internetUsers": "75,722",
+    "penetration": "11.9 %",
+    "usersInRegion": "0.3 %",
+    "facebookSubs": "68,000"
+  },
+  {
+    "name": "Terres Australes",
+    "region": "Oceania",
+    "population": "n/a",
+    "internetUsers": "n/a",
+    "penetration": "n/a",
+    "usersInRegion": "n/a",
+    "facebookSubs": "n/a"
+  },
+  {
+    "name": "Tokelau",
+    "region": "Oceania",
+    "population": "1,340",
+    "internetUsers": "800",
+    "penetration": "59.7%",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "410"
+  },
+  {
+    "name": "Tonga",
+    "region": "Oceania",
+    "population": "110,041",
+    "internetUsers": "57,822",
+    "penetration": "52.5 %",
+    "usersInRegion": "0.2 %",
+    "facebookSubs": "54,000"
+  },
+  {
+    "name": "Tuvalu",
+    "region": "Oceania",
+    "population": "11,393",
+    "internetUsers": "5,619",
+    "penetration": "49.3 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "1,700"
+  },
+  {
+    "name": "Vanuatu",
+    "region": "Oceania",
+    "population": "288,017",
+    "internetUsers": "82,764",
+    "penetration": "28.7%",
+    "usersInRegion": "0.3 %",
+    "facebookSubs": "63,000"
+  },
+  {
+    "name": "Wallis & Futuna",
+    "region": "Oceania",
+    "population": "11,617",
+    "internetUsers": "3,900",
+    "penetration": "33.6 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "3,400"
   }
 ]
