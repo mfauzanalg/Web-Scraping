@@ -1,0 +1,1325 @@
+[
+  {
+    "name": "Afganistan",
+    "region": "Asia",
+    "population": "38,928,346",
+    "internetUsers": "7,337,489",
+    "penetration": "18.8 %",
+    "usersInRegion": "0.3 %",
+    "facebookSubs": "3,848,400"
+  },
+  {
+    "name": "Armenia",
+    "region": "Asia",
+    "population": "2,963,243",
+    "internetUsers": "2,126,716",
+    "penetration": "71.8 %",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "1,252,000"
+  },
+  {
+    "name": "Azerbaijan",
+    "region": "Asia",
+    "population": "10,139,177",
+    "internetUsers": "7,991,630",
+    "penetration": "78.8 %",
+    "usersInRegion": "0.3 %",
+    "facebookSubs": "1,854,000"
+  },
+  {
+    "name": "Bangladesh",
+    "region": "Asia",
+    "population": "164,689,383",
+    "internetUsers": "96,199,000",
+    "penetration": "58.4 %",
+    "usersInRegion": "4.2 %",
+    "facebookSubs": "33,713,000"
+  },
+  {
+    "name": "Bhutan",
+    "region": "Asia",
+    "population": "771,608",
+    "internetUsers": "397,499",
+    "penetration": "51.5 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "413,100"
+  },
+  {
+    "name": "Brunei Darussulam",
+    "region": "Asia",
+    "population": "437,479",
+    "internetUsers": "416,798",
+    "penetration": "95.3 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "400,200"
+  },
+  {
+    "name": "Cambodia",
+    "region": "Asia",
+    "population": "16,718,965",
+    "internetUsers": "8,005,551",
+    "penetration": "47.9 %",
+    "usersInRegion": "0.3 %",
+    "facebookSubs": "7,810,000"
+  },
+  {
+    "name": "China *",
+    "region": "Asia",
+    "population": "1,439,323,776",
+    "internetUsers": "854,000,000",
+    "penetration": "59.3 %",
+    "usersInRegion": "37.1 %",
+    "facebookSubs": "1,330,000"
+  },
+  {
+    "name": "Georgia",
+    "region": "Asia",
+    "population": "3,989,167",
+    "internetUsers": "2,658,311",
+    "penetration": "66.6 %",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "2,524,000"
+  },
+  {
+    "name": "Hong Kong *",
+    "region": "Asia",
+    "population": "7,496,981",
+    "internetUsers": "6,698,252",
+    "penetration": "89.3 %",
+    "usersInRegion": "0.3 %",
+    "facebookSubs": "5,361,000"
+  },
+  {
+    "name": "India",
+    "region": "Asia",
+    "population": "1,380,004,385",
+    "internetUsers": "560,000,000",
+    "penetration": "40.6 %",
+    "usersInRegion": "24.3 %",
+    "facebookSubs": "251,000,000"
+  },
+  {
+    "name": "Indonesia",
+    "region": "Asia",
+    "population": "273,523,615",
+    "internetUsers": "171,260,000",
+    "penetration": "62.6 %",
+    "usersInRegion": "7.4 %",
+    "facebookSubs": "136,960,000"
+  },
+  {
+    "name": "Japan",
+    "region": "Asia",
+    "population": "126,476,461",
+    "internetUsers": "118,626,672",
+    "penetration": "93.8 %",
+    "usersInRegion": "5.2 %",
+    "facebookSubs": "28,000,000"
+  },
+  {
+    "name": "Kazakhstan",
+    "region": "Asia",
+    "population": "18,776,707",
+    "internetUsers": "14,669,853",
+    "penetration": "78.1 %",
+    "usersInRegion": "0.6 %",
+    "facebookSubs": "9,246,000"
+  },
+  {
+    "name": "Korea, North",
+    "region": "Asia",
+    "population": "25,778,816",
+    "internetUsers": "20,000",
+    "penetration": "0.1 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "14,000"
+  },
+  {
+    "name": "Korea, South",
+    "region": "Asia",
+    "population": "51,269,185",
+    "internetUsers": "49,234,329",
+    "penetration": "96.0 %",
+    "usersInRegion": "2.1 %",
+    "facebookSubs": "21,836,000"
+  },
+  {
+    "name": "Kyrgystan",
+    "region": "Asia",
+    "population": "6,524,195",
+    "internetUsers": "2,493,400",
+    "penetration": "38.2 %",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "2,418,000"
+  },
+  {
+    "name": "Laos",
+    "region": "Asia",
+    "population": "7,064,242",
+    "internetUsers": "3,056,000",
+    "penetration": "42.0 %",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "3,056,000"
+  },
+  {
+    "name": "Macao *",
+    "region": "Asia",
+    "population": "649,335",
+    "internetUsers": "538,007",
+    "penetration": "83.8 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "406,900"
+  },
+  {
+    "name": "Malaysia",
+    "region": "Asia",
+    "population": "32,365,999",
+    "internetUsers": "26,353,017",
+    "penetration": "81.4 %",
+    "usersInRegion": "1.1 %",
+    "facebookSubs": "25,520,000"
+  },
+  {
+    "name": "Maldives",
+    "region": "Asia",
+    "population": "540,544",
+    "internetUsers": "370,000",
+    "penetration": "68.4 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "375,100"
+  },
+  {
+    "name": "Mongolia",
+    "region": "Asia",
+    "population": "3,278,290",
+    "internetUsers": "2,233,000",
+    "penetration": "68.1 %",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "2,233,000"
+  },
+  {
+    "name": "Myanmar",
+    "region": "Asia",
+    "population": "54,409,800",
+    "internetUsers": "22,200,000",
+    "penetration": "40.8 %",
+    "usersInRegion": "1.0 %",
+    "facebookSubs": "22,200,000"
+  },
+  {
+    "name": "Nepal",
+    "region": "Asia",
+    "population": "29,136,808",
+    "internetUsers": "16,190,000",
+    "penetration": "55.6 %",
+    "usersInRegion": "0.7 %",
+    "facebookSubs": "10,419,000"
+  },
+  {
+    "name": "Pakistan",
+    "region": "Asia",
+    "population": "220,892,340",
+    "internetUsers": "71,608,065",
+    "penetration": "32.4 %",
+    "usersInRegion": "3.1 %",
+    "facebookSubs": "37,070,000"
+  },
+  {
+    "name": "Philippines",
+    "region": "Asia",
+    "population": "109,581,078",
+    "internetUsers": "79,000,000",
+    "penetration": "72.1 %",
+    "usersInRegion": "3.4 %",
+    "facebookSubs": "71,760,000"
+  },
+  {
+    "name": "Singapore",
+    "region": "Asia",
+    "population": "5,850,342",
+    "internetUsers": "5,173,907",
+    "penetration": "88.4 %",
+    "usersInRegion": "0.2 %",
+    "facebookSubs": "4,470,000"
+  },
+  {
+    "name": "Sri Lanka",
+    "region": "Asia",
+    "population": "21,413,249",
+    "internetUsers": "7,169,533",
+    "penetration": "33.5 %",
+    "usersInRegion": "0.3 %",
+    "facebookSubs": "6,428,000"
+  },
+  {
+    "name": "Taiwan",
+    "region": "Asia",
+    "population": "23,816,775",
+    "internetUsers": "22,042,902",
+    "penetration": "92.6 %",
+    "usersInRegion": "1.0 %",
+    "facebookSubs": "19,190,000"
+  },
+  {
+    "name": "Tajikistan",
+    "region": "Asia",
+    "population": "9,537,645",
+    "internetUsers": "3,013,256",
+    "penetration": "31.6 %",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "645,500"
+  },
+  {
+    "name": "Thailand",
+    "region": "Asia",
+    "population": "69,799,978",
+    "internetUsers": "57,000,000",
+    "penetration": "81.7 %",
+    "usersInRegion": "2.5 %",
+    "facebookSubs": "46,000,000"
+  },
+  {
+    "name": "Timor-Leste",
+    "region": "Asia",
+    "population": "1,318,445",
+    "internetUsers": "410,000",
+    "penetration": "31.1 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "390,000"
+  },
+  {
+    "name": "Turkmenistan",
+    "region": "Asia",
+    "population": "6,031,200",
+    "internetUsers": "1,262,794",
+    "penetration": "20.9 %",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "67,200"
+  },
+  {
+    "name": "Uzbekistan",
+    "region": "Asia",
+    "population": "33,469,203",
+    "internetUsers": "17,161,534",
+    "penetration": "51.3 %",
+    "usersInRegion": "0.7 %",
+    "facebookSubs": "3,094,000"
+  },
+  {
+    "name": "Vietnam",
+    "region": "Asia",
+    "population": "97,338,579",
+    "internetUsers": "68,541,344",
+    "penetration": "70.4 %",
+    "usersInRegion": "3.0 %",
+    "facebookSubs": "66,720,000"
+  },
+  {
+    "name": "Anguilla",
+    "region": "America",
+    "population": "14,909",
+    "internetUsers": "12,557",
+    "penetration": "84.2 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "9,000"
+  },
+  {
+    "name": "Antigua & Barbuda",
+    "region": "America",
+    "population": "103,050",
+    "internetUsers": "81,900",
+    "penetration": "79.5 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "62,000"
+  },
+  {
+    "name": "Argentina",
+    "region": "America",
+    "population": "44,688,864",
+    "internetUsers": "41,586,960",
+    "penetration": "93.1 %",
+    "usersInRegion": "5.3 %",
+    "facebookSubs": "30,000,000"
+  },
+  {
+    "name": "Aruba",
+    "region": "America",
+    "population": "105,670",
+    "internetUsers": "100,000",
+    "penetration": "94.6 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "91,000"
+  },
+  {
+    "name": "Bahamas",
+    "region": "America",
+    "population": "399,285",
+    "internetUsers": "333,143",
+    "penetration": "83.4 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "220,000"
+  },
+  {
+    "name": "Barbados",
+    "region": "America",
+    "population": "286,388",
+    "internetUsers": "228,717",
+    "penetration": "79.9 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "160,000"
+  },
+  {
+    "name": "Belize",
+    "region": "America",
+    "population": "382,444",
+    "internetUsers": "200,020",
+    "penetration": "52.3 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "200,000"
+  },
+  {
+    "name": "Bermuda",
+    "region": "America",
+    "population": "61,349",
+    "internetUsers": "60,122",
+    "penetration": "98.0 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "39,000"
+  },
+  {
+    "name": "Bolivia",
+    "region": "America",
+    "population": "11,215,674",
+    "internetUsers": "8,817,749",
+    "penetration": "78.6 %",
+    "usersInRegion": "1.1 %",
+    "facebookSubs": "6,100,000"
+  },
+  {
+    "name": "Bonaire, S.E., Saba",
+    "region": "America",
+    "population": "25,398",
+    "internetUsers": "20,956",
+    "penetration": "82.5%",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "15,000"
+  },
+  {
+    "name": "Brazil",
+    "region": "America",
+    "population": "210,867,954",
+    "internetUsers": "149,057,635",
+    "penetration": "70.7 %",
+    "usersInRegion": "19.0 %",
+    "facebookSubs": "139,000,000"
+  },
+  {
+    "name": "British Virgin Islands",
+    "region": "America",
+    "population": "31,196",
+    "internetUsers": "14,620",
+    "penetration": "46.9 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "12,000"
+  },
+  {
+    "name": "Canada",
+    "region": "America",
+    "population": "36,953,765",
+    "internetUsers": "33,221,435",
+    "penetration": "89.9 %",
+    "usersInRegion": "4.2 %",
+    "facebookSubs": "23,000,000"
+  },
+  {
+    "name": "Cayman Islands",
+    "region": "America",
+    "population": "61,559",
+    "internetUsers": "54,630",
+    "penetration": "88.7 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "48,000"
+  },
+  {
+    "name": "Chile",
+    "region": "America",
+    "population": "18,197,209",
+    "internetUsers": "14,108,392",
+    "penetration": "77.5 %",
+    "usersInRegion": "1.8 %",
+    "facebookSubs": "13,000,000"
+  },
+  {
+    "name": "Colombia",
+    "region": "America",
+    "population": "49,464,683",
+    "internetUsers": "31,275,567",
+    "penetration": "63.2 %",
+    "usersInRegion": "4.0 %",
+    "facebookSubs": "29,000,000"
+  },
+  {
+    "name": "Costa Rica",
+    "region": "America",
+    "population": "4,953,199",
+    "internetUsers": "4,296,443",
+    "penetration": "86.7 %",
+    "usersInRegion": "0.5 %",
+    "facebookSubs": "3,200,000"
+  },
+  {
+    "name": "Cuba",
+    "region": "America",
+    "population": "11,489,082",
+    "internetUsers": "4,630,000",
+    "penetration": "40.3 %",
+    "usersInRegion": "0.6 %",
+    "facebookSubs": "n/a"
+  },
+  {
+    "name": "Curaçao",
+    "region": "America",
+    "population": "161,577",
+    "internetUsers": "151,274",
+    "penetration": "93.6 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "120,000"
+  },
+  {
+    "name": "Dominica",
+    "region": "America",
+    "population": "73,925",
+    "internetUsers": "49,687",
+    "penetration": "67.2 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "39,000"
+  },
+  {
+    "name": "Dominican Republic",
+    "region": "America",
+    "population": "10,882,996",
+    "internetUsers": "6,649,904",
+    "penetration": "61.1 %",
+    "usersInRegion": "0.8 %",
+    "facebookSubs": "5,100,000"
+  },
+  {
+    "name": "Ecuador",
+    "region": "America",
+    "population": "16,863,425",
+    "internetUsers": "13,476,687",
+    "penetration": "79.9 %",
+    "usersInRegion": "1.7 %",
+    "facebookSubs": "10,000,000"
+  },
+  {
+    "name": "El Salvador",
+    "region": "America",
+    "population": "6,411,558",
+    "internetUsers": "3,700,000",
+    "penetration": "57.7 %",
+    "usersInRegion": "0.5 %",
+    "facebookSubs": "3,400,000"
+  },
+  {
+    "name": "Falkland Islands",
+    "region": "America",
+    "population": "2,922",
+    "internetUsers": "2,900",
+    "penetration": "99.2 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "3,100"
+  },
+  {
+    "name": "French Guiana",
+    "region": "America",
+    "population": "289,763",
+    "internetUsers": "120,000",
+    "penetration": "41.4 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "110,000"
+  },
+  {
+    "name": "Greenland",
+    "region": "America",
+    "population": "56,480",
+    "internetUsers": "52,000",
+    "penetration": "92.1 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "38,000"
+  },
+  {
+    "name": "Grenada",
+    "region": "America",
+    "population": "108,339",
+    "internetUsers": "69,245",
+    "penetration": "63.9 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "62,000"
+  },
+  {
+    "name": "Guadeloupe",
+    "region": "America",
+    "population": "449,173",
+    "internetUsers": "240,000",
+    "penetration": "53.4 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "220,000"
+  },
+  {
+    "name": "Guatemala",
+    "region": "America",
+    "population": "17,245,346",
+    "internetUsers": "7,268,597",
+    "penetration": "42.1 %",
+    "usersInRegion": "0.9 %",
+    "facebookSubs": "6,800,000"
+  },
+  {
+    "name": "Guyana",
+    "region": "America",
+    "population": "782,225",
+    "internetUsers": "395,007",
+    "penetration": "50.5 %",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "360,000"
+  },
+  {
+    "name": "Haiti",
+    "region": "America",
+    "population": "11,112,945",
+    "internetUsers": "2,000,000",
+    "penetration": "18.0 %",
+    "usersInRegion": "0.3 %",
+    "facebookSubs": "1,800,000"
+  },
+  {
+    "name": "Honduras",
+    "region": "America",
+    "population": "9,417,167",
+    "internetUsers": "3,600,000",
+    "penetration": "38.2 %",
+    "usersInRegion": "0.5 %",
+    "facebookSubs": "3,400,000"
+  },
+  {
+    "name": "Jamaica",
+    "region": "America",
+    "population": "2,898,677",
+    "internetUsers": "1,581,100",
+    "penetration": "54.5 %",
+    "usersInRegion": "0.2 %",
+    "facebookSubs": "1,100,000"
+  },
+  {
+    "name": "Martinique",
+    "region": "America",
+    "population": "385,065",
+    "internetUsers": "303,302",
+    "penetration": "78.8 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "170,000"
+  },
+  {
+    "name": "Mexico",
+    "region": "America",
+    "population": "130,759,074",
+    "internetUsers": "85,000,000",
+    "penetration": "65.0 %",
+    "usersInRegion": "10.9 %",
+    "facebookSubs": "78,000,000"
+  },
+  {
+    "name": "Monserrat",
+    "region": "America",
+    "population": "5,177",
+    "internetUsers": "3,000",
+    "penetration": "57.9 %",
+    "usersInRegion": "0.0%",
+    "facebookSubs": "2,600"
+  },
+  {
+    "name": "Nicaragua",
+    "region": "America",
+    "population": "6,284,757",
+    "internetUsers": "2,700,000",
+    "penetration": "43.0 %",
+    "usersInRegion": "0.3 %",
+    "facebookSubs": "2,500,000"
+  },
+  {
+    "name": "Panama",
+    "region": "America",
+    "population": "4,162,618",
+    "internetUsers": "2,899,892",
+    "penetration": "69.7 %",
+    "usersInRegion": "0.4 %",
+    "facebookSubs": "2,000,000"
+  },
+  {
+    "name": "Paraguay",
+    "region": "America",
+    "population": "6,896,908",
+    "internetUsers": "6,177,748",
+    "penetration": "89.6 %",
+    "usersInRegion": "0.8 %",
+    "facebookSubs": "3,300,000"
+  },
+  {
+    "name": "Peru",
+    "region": "America",
+    "population": "32,551,815",
+    "internetUsers": "22,000,000",
+    "penetration": "67.6 %",
+    "usersInRegion": "2.8 %",
+    "facebookSubs": "20,000,000"
+  },
+  {
+    "name": "Puerto Rico",
+    "region": "America",
+    "population": "3,659,007",
+    "internetUsers": "3,047,311",
+    "penetration": "83.3 %",
+    "usersInRegion": "0.4 %",
+    "facebookSubs": "2,100,000"
+  },
+  {
+    "name": "St. Barthélemy (FR)",
+    "region": "America",
+    "population": "7,184",
+    "internetUsers": "7,240",
+    "penetration": "100.8 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "6,400"
+  },
+  {
+    "name": "St. Kitts & Nevis",
+    "region": "America",
+    "population": "55,345",
+    "internetUsers": "43,618",
+    "penetration": "78.8 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "35,000"
+  },
+  {
+    "name": "Saint Lucia",
+    "region": "America",
+    "population": "179,667",
+    "internetUsers": "142,970",
+    "penetration": "79.6 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "92,000"
+  },
+  {
+    "name": "St. Martin (FR)",
+    "region": "America",
+    "population": "32,125",
+    "internetUsers": "16,100",
+    "penetration": "50.1 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "15,000"
+  },
+  {
+    "name": "St. Pierre & Maquelon",
+    "region": "America",
+    "population": "6,320",
+    "internetUsers": "5,033",
+    "penetration": "79.6 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "3,100"
+  },
+  {
+    "name": "St. Vincent & Grenadines",
+    "region": "America",
+    "population": "110,200",
+    "internetUsers": "76,984",
+    "penetration": "69.9 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "61,000"
+  },
+  {
+    "name": "Sint Maarten (NL)",
+    "region": "America",
+    "population": "40,120",
+    "internetUsers": "33,000",
+    "penetration": "82.3 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "31,000"
+  },
+  {
+    "name": "Suriname",
+    "region": "America",
+    "population": "568,301",
+    "internetUsers": "340,000",
+    "penetration": "59.8 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "310,000"
+  },
+  {
+    "name": "Trinidad & Tobago",
+    "region": "America",
+    "population": "1,372,598",
+    "internetUsers": "1,003,592",
+    "penetration": "73.1%",
+    "usersInRegion": "0.1 %",
+    "facebookSubs": "700,000"
+  },
+  {
+    "name": "Turks & Caicos",
+    "region": "America",
+    "population": "35,747",
+    "internetUsers": "28,000",
+    "penetration": "78.3 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "25,000"
+  },
+  {
+    "name": "United States",
+    "region": "America",
+    "population": "326,766,748",
+    "internetUsers": "312,322,257",
+    "penetration": "95.6 %",
+    "usersInRegion": "39.9 %",
+    "facebookSubs": "240,000,000"
+  },
+  {
+    "name": "Uruguay",
+    "region": "America",
+    "population": "3,469,551",
+    "internetUsers": "3,059,727",
+    "penetration": "88.2 %",
+    "usersInRegion": "0.4 %",
+    "facebookSubs": "2,400,000"
+  },
+  {
+    "name": "US Virgin Islands",
+    "region": "America",
+    "population": "104,914",
+    "internetUsers": "63,529",
+    "penetration": "60.6 %",
+    "usersInRegion": "0.0 %",
+    "facebookSubs": "22,000"
+  },
+  {
+    "name": "Venezuela",
+    "region": "America",
+    "population": "32,381,221",
+    "internetUsers": "17,178,743",
+    "penetration": "53.1 %",
+    "usersInRegion": "2.2 %",
+    "facebookSubs": "13,000,000"
+  },
+  {
+    "name": "Algeria",
+    "region": "Africa",
+    "population": "43,851,044",
+    "internetUsers": "25,428,159",
+    "penetration": "58.0 %",
+    "usersInRegion": "50,756 %",
+    "facebookSubs": "19,000,000"
+  },
+  {
+    "name": "Angola",
+    "region": "Africa",
+    "population": "32,866,272",
+    "internetUsers": "7,078,067",
+    "penetration": "21.5 %",
+    "usersInRegion": "23,493 %",
+    "facebookSubs": "2,244,000"
+  },
+  {
+    "name": "Benin",
+    "region": "Africa",
+    "population": "12,123,200",
+    "internetUsers": "3,801,758",
+    "penetration": "31.4 %",
+    "usersInRegion": "25,245 %",
+    "facebookSubs": "920,000"
+  },
+  {
+    "name": "Botswana",
+    "region": "Africa",
+    "population": "2,351,627",
+    "internetUsers": "1,116,079",
+    "penetration": "47.5 %",
+    "usersInRegion": "6,455 %",
+    "facebookSubs": "830,000"
+  },
+  {
+    "name": "Burkina Faso",
+    "region": "Africa",
+    "population": "20,903,273",
+    "internetUsers": "3,704,265",
+    "penetration": "17.7 %",
+    "usersInRegion": "36,942 %",
+    "facebookSubs": "840,000"
+  },
+  {
+    "name": "Burundi",
+    "region": "Africa",
+    "population": "11,890,784",
+    "internetUsers": "1,154,568",
+    "penetration": "9.7 %",
+    "usersInRegion": "38,385 %",
+    "facebookSubs": "450,000"
+  },
+  {
+    "name": "Cabo Verde",
+    "region": "Africa",
+    "population": "555,987",
+    "internetUsers": "352,120",
+    "penetration": "63.3 %",
+    "usersInRegion": "4,302 %",
+    "facebookSubs": "240,000"
+  },
+  {
+    "name": "Cameroon",
+    "region": "Africa",
+    "population": "26,545,863",
+    "internetUsers": "6,128,422",
+    "penetration": "23.1 %",
+    "usersInRegion": "30,542 %",
+    "facebookSubs": "2,700,000"
+  },
+  {
+    "name": "Central African Rep.",
+    "region": "Africa",
+    "population": "4,829,767",
+    "internetUsers": "655,466",
+    "penetration": "13.6 %",
+    "usersInRegion": "43,597 %",
+    "facebookSubs": "122,100"
+  },
+  {
+    "name": "Chad",
+    "region": "Africa",
+    "population": "16,425,864",
+    "internetUsers": "1,027,932",
+    "penetration": "6.3 %",
+    "usersInRegion": "102,693 %",
+    "facebookSubs": "328,000"
+  },
+  {
+    "name": "Comoros",
+    "region": "Africa",
+    "population": "869,901",
+    "internetUsers": "178,500",
+    "penetration": "20.5%",
+    "usersInRegion": "11,800 %",
+    "facebookSubs": "178,500"
+  },
+  {
+    "name": "Congo",
+    "region": "Africa",
+    "population": "5,518,087",
+    "internetUsers": "732,800",
+    "penetration": "13.3 %",
+    "usersInRegion": "146,460 %",
+    "facebookSubs": "732,800"
+  },
+  {
+    "name": "Congo, Dem. Rep.",
+    "region": "Africa",
+    "population": "89,561,403",
+    "internetUsers": "7,475,917",
+    "penetration": "8.3 %",
+    "usersInRegion": "1,495,083 %",
+    "facebookSubs": "3,117,000"
+  },
+  {
+    "name": "Cote d'Ivoire",
+    "region": "Africa",
+    "population": "26,378,274",
+    "internetUsers": "11,953,653",
+    "penetration": "45.3 %",
+    "usersInRegion": "29,784 %",
+    "facebookSubs": "4,758,000"
+  },
+  {
+    "name": "Djibouti",
+    "region": "Africa",
+    "population": "988,000",
+    "internetUsers": "548,832",
+    "penetration": "55.5 %",
+    "usersInRegion": "39,102 %",
+    "facebookSubs": "211,700"
+  },
+  {
+    "name": "Egypt",
+    "region": "Africa",
+    "population": "102,334,404",
+    "internetUsers": "49,231,493",
+    "penetration": "48.1 %",
+    "usersInRegion": "10,840 %",
+    "facebookSubs": "42,400,000"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "region": "Africa",
+    "population": "1,402,985",
+    "internetUsers": "356,891",
+    "penetration": "25.4 %",
+    "usersInRegion": "71,278 %",
+    "facebookSubs": "100,600"
+  },
+  {
+    "name": "Eritrea",
+    "region": "Africa",
+    "population": "3,546,421",
+    "internetUsers": "293,343",
+    "penetration": "8.3 %",
+    "usersInRegion": "5,766 %",
+    "facebookSubs": "21,900"
+  },
+  {
+    "name": "Eswatini",
+    "region": "Africa",
+    "population": "1,160,164",
+    "internetUsers": "665,245",
+    "penetration": "57.3 %",
+    "usersInRegion": "6,552 %",
+    "facebookSubs": "255,200"
+  },
+  {
+    "name": "Ethiopia",
+    "region": "Africa",
+    "population": "114,963,588",
+    "internetUsers": "20,507,255",
+    "penetration": "17.8 %",
+    "usersInRegion": "204,972 %",
+    "facebookSubs": "6,007,000"
+  },
+  {
+    "name": "Gabon",
+    "region": "Africa",
+    "population": "2,225,734",
+    "internetUsers": "1,307,641",
+    "penetration": "58.8 %",
+    "usersInRegion": "8,617 %",
+    "facebookSubs": "743,000"
+  },
+  {
+    "name": "Gambia",
+    "region": "Africa",
+    "population": "2,416,668",
+    "internetUsers": "442,050",
+    "penetration": "18.3 %",
+    "usersInRegion": "10,951 %",
+    "facebookSubs": "370,100"
+  },
+  {
+    "name": "Ghana",
+    "region": "Africa",
+    "population": "31,072,940",
+    "internetUsers": "11,737,818",
+    "penetration": "37.8 %",
+    "usersInRegion": "39,026 %",
+    "facebookSubs": "4,900,000"
+  },
+  {
+    "name": "Guinea",
+    "region": "Africa",
+    "population": "13,132,795",
+    "internetUsers": "2,411,672",
+    "penetration": "18.4 %",
+    "usersInRegion": "30,046 %",
+    "facebookSubs": "2,008,000"
+  },
+  {
+    "name": "Guinea-Bissau",
+    "region": "Africa",
+    "population": "1,968,001",
+    "internetUsers": "250,000",
+    "penetration": "12.7 %",
+    "usersInRegion": "16,567 %",
+    "facebookSubs": "140,000"
+  },
+  {
+    "name": "Kenya",
+    "region": "Africa",
+    "population": "53,771,296",
+    "internetUsers": "46,870,422",
+    "penetration": "87.2 %",
+    "usersInRegion": "23,335 %",
+    "facebookSubs": "7,000,000"
+  },
+  {
+    "name": "Lesotho",
+    "region": "Africa",
+    "population": "2,142,249",
+    "internetUsers": "682,990",
+    "penetration": "31.9 %",
+    "usersInRegion": "16,975 %",
+    "facebookSubs": "445,600"
+  },
+  {
+    "name": "Liberia",
+    "region": "Africa",
+    "population": "5,057,681",
+    "internetUsers": "624,610",
+    "penetration": "12.3 %",
+    "usersInRegion": "124,822 %",
+    "facebookSubs": "537,000"
+  },
+  {
+    "name": "Libya",
+    "region": "Africa",
+    "population": "6,871,292",
+    "internetUsers": "5,100,000",
+    "penetration": "74.2 %",
+    "usersInRegion": "50,900 %",
+    "facebookSubs": "5,094,000"
+  },
+  {
+    "name": "Madagascar",
+    "region": "Africa",
+    "population": "27,691,018",
+    "internetUsers": "2,643,025",
+    "penetration": "9.5 %",
+    "usersInRegion": "8,710 %",
+    "facebookSubs": "2,317,000"
+  },
+  {
+    "name": "Malawi",
+    "region": "Africa",
+    "population": "19,129,952",
+    "internetUsers": "2,717,243",
+    "penetration": "14.2 %",
+    "usersInRegion": "18,015 %",
+    "facebookSubs": "500,200"
+  },
+  {
+    "name": "Mali",
+    "region": "Africa",
+    "population": "20,250,833",
+    "internetUsers": "12,480,176",
+    "penetration": "61.6 %",
+    "usersInRegion": "66,284 %",
+    "facebookSubs": "1,670,100"
+  },
+  {
+    "name": "Mauritania",
+    "region": "Africa",
+    "population": "4,649,658",
+    "internetUsers": "969,519",
+    "penetration": "20.9 %",
+    "usersInRegion": "19,290 %",
+    "facebookSubs": "796,900"
+  },
+  {
+    "name": "Mauritius",
+    "region": "Africa",
+    "population": "1,271,768",
+    "internetUsers": "852,000",
+    "penetration": "67.0 %",
+    "usersInRegion": "879 %",
+    "facebookSubs": "852,000"
+  },
+  {
+    "name": "Mayotte (FR)",
+    "region": "Africa",
+    "population": "272,815",
+    "internetUsers": "107,940",
+    "penetration": "39.6 %",
+    "usersInRegion": "n/a",
+    "facebookSubs": "91,400"
+  },
+  {
+    "name": "Morocco",
+    "region": "Africa",
+    "population": "36,910,560",
+    "internetUsers": "23,739,581",
+    "penetration": "64.3 %",
+    "usersInRegion": "23,639 %",
+    "facebookSubs": "18,330,000"
+  },
+  {
+    "name": "Mozambique",
+    "region": "Africa",
+    "population": "31,255,435",
+    "internetUsers": "6,523,613",
+    "penetration": "20.9 %",
+    "usersInRegion": "21,645 %",
+    "facebookSubs": "2,448,000"
+  },
+  {
+    "name": "Namibia",
+    "region": "Africa",
+    "population": "2,540,905",
+    "internetUsers": "1,347,418",
+    "penetration": "53.0 %",
+    "usersInRegion": "4,391 %",
+    "facebookSubs": "692,400"
+  },
+  {
+    "name": "Niger",
+    "region": "Africa",
+    "population": "24,206,644",
+    "internetUsers": "2,781,266",
+    "penetration": "11.5 %",
+    "usersInRegion": "55,525 %",
+    "facebookSubs": "500,200"
+  },
+  {
+    "name": "Nigeria",
+    "region": "Africa",
+    "population": "206,139,589",
+    "internetUsers": "126,078,999",
+    "penetration": "61.2 %",
+    "usersInRegion": "62,939 %",
+    "facebookSubs": "27,120,000"
+  },
+  {
+    "name": "Reunion (FR)",
+    "region": "Africa",
+    "population": "895,312",
+    "internetUsers": "553,000",
+    "penetration": "61.8 %",
+    "usersInRegion": "325 %",
+    "facebookSubs": "544,000"
+  },
+  {
+    "name": "Rwanda",
+    "region": "Africa",
+    "population": "12,952,218",
+    "internetUsers": "5,981,638",
+    "penetration": "46.2 %",
+    "usersInRegion": "119,532 %",
+    "facebookSubs": "592,400"
+  },
+  {
+    "name": "Saint Helena (UK)",
+    "region": "Africa",
+    "population": "6,077",
+    "internetUsers": "2,300",
+    "penetration": "37.8 %",
+    "usersInRegion": "n/a",
+    "facebookSubs": "2,300"
+  },
+  {
+    "name": "Sao Tome & Principe",
+    "region": "Africa",
+    "population": "219,159",
+    "internetUsers": "63,864",
+    "penetration": "29.1 %",
+    "usersInRegion": "882 %",
+    "facebookSubs": "58,400"
+  },
+  {
+    "name": "Senegal",
+    "region": "Africa",
+    "population": "16,743,927",
+    "internetUsers": "9,749,527",
+    "penetration": "58.2 %",
+    "usersInRegion": "24,274 %",
+    "facebookSubs": "3,408,000"
+  },
+  {
+    "name": "Seychelles",
+    "region": "Africa",
+    "population": "98,347",
+    "internetUsers": "71,300",
+    "penetration": "72.5 %",
+    "usersInRegion": "1,088 %",
+    "facebookSubs": "71,000"
+  },
+  {
+    "name": "Sierra Leone",
+    "region": "Africa",
+    "population": "7,976,983",
+    "internetUsers": "1,043,725",
+    "penetration": "13.1 %",
+    "usersInRegion": "20,774 %",
+    "facebookSubs": "693,400"
+  },
+  {
+    "name": "Somalia",
+    "region": "Africa",
+    "population": "15,893,222",
+    "internetUsers": "1,705,300",
+    "penetration": "10.7 %",
+    "usersInRegion": "852,550 %",
+    "facebookSubs": "1,666,500"
+  },
+  {
+    "name": "South Africa",
+    "region": "Africa",
+    "population": "59,308,690",
+    "internetUsers": "32,615,165",
+    "penetration": "55.0 %",
+    "usersInRegion": "1,259 %",
+    "facebookSubs": "21,280,000"
+  },
+  {
+    "name": "South Sudan",
+    "region": "Africa",
+    "population": "11,193,725",
+    "internetUsers": "887,722",
+    "penetration": "7.9 %",
+    "usersInRegion": "n/a",
+    "facebookSubs": "282,901"
+  },
+  {
+    "name": "Sudan",
+    "region": "Africa",
+    "population": "43,849,260",
+    "internetUsers": "13,124,100",
+    "penetration": "29.9 %",
+    "usersInRegion": "43,647 %",
+    "facebookSubs": "1,300,000"
+  },
+  {
+    "name": "Tanzania",
+    "region": "Africa",
+    "population": "59,734,218",
+    "internetUsers": "23,142,960",
+    "penetration": "38.7 %",
+    "usersInRegion": "20,024 %",
+    "facebookSubs": "4,271,000"
+  },
+  {
+    "name": "Togo",
+    "region": "Africa",
+    "population": "8,278,724",
+    "internetUsers": "1,011,837",
+    "penetration": "12.2 %",
+    "usersInRegion": "912 %",
+    "facebookSubs": "658,100"
+  },
+  {
+    "name": "Tunisia",
+    "region": "Africa",
+    "population": "11,818,619",
+    "internetUsers": "7,898,534",
+    "penetration": "66.8 %",
+    "usersInRegion": "7,798 %",
+    "facebookSubs": "7,445,000"
+  },
+  {
+    "name": "Uganda",
+    "region": "Africa",
+    "population": "45,741,007",
+    "internetUsers": "18,502,166",
+    "penetration": "40.4 %",
+    "usersInRegion": "46,155 %",
+    "facebookSubs": "2,471,000"
+  },
+  {
+    "name": "Western Sahara",
+    "region": "Africa",
+    "population": "597,339",
+    "internetUsers": "28,000",
+    "penetration": "4.7 %",
+    "usersInRegion": "n/a",
+    "facebookSubs": "27,000"
+  },
+  {
+    "name": "Zambia",
+    "region": "Africa",
+    "population": "18,383,955",
+    "internetUsers": "9,870,427",
+    "penetration": "53.7 %",
+    "usersInRegion": "49,252 %",
+    "facebookSubs": "2,253,000"
+  }
+]

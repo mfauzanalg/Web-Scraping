@@ -14,7 +14,7 @@ class udemyPage {
     async init(udemy) {
         this.elements = await this.getSelector();
         this.browser = await puppeteer.launch({  
-            headless: false, // The browser is visible
+            headless: true, // The browser is visible
             ignoreHTTPSErrors: true});
 
         this.page = await this.browser.newPage();
@@ -143,6 +143,8 @@ class udemyPage {
         };
         return elements;
     }
+
+    
 
     async autoScroll(page){
         await page.evaluate(async () => {

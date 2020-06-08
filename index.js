@@ -11,19 +11,19 @@ const udemy = require('./udemy');
     const udemy4 = new udemy();
 
     await udemy1.init('search/?kw=javascr&p=1&q=vue&src=sac&persist_locale=&locale=en_US&previous_locale=es_ES');
-    const results =  udemy1.getResult(420);
+    const results =  udemy1.getResult(30);
 
     await udemy2.init('search/?locale=en_US&p=1&persist_locale=&previous_locale=de_DE&q=javascript');
-    const results2 = udemy2.getResult(420);
+    const results2 = udemy2.getResult(30);
 
     await udemy3.init('search/?locale=en_US&p=1&persist_locale=&previous_locale=de_DE&q=react+js');
-    const results3 =  udemy3.getResult(420);
+    const results3 =  udemy3.getResult(30);
 
     // await udemy4.init('search/?locale=en_US&p=1&persist_locale=&previous_locale=de_DE&q=angular+js');
     // const results4 = udemy4.getResult(400);
     
 
-    Promise.all([results, results2, results3]).then((values) => {
+    await Promise.all([results, results2, results3]).then((values) => {
         var merged = [].concat.apply([], values);
         console.log(merged);
 
@@ -32,5 +32,7 @@ const udemy = require('./udemy');
             console.log("Saved!");
         });
     })
+
+    await udemy1.browser.close();
 
 })();
