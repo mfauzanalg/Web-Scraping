@@ -45,7 +45,7 @@ class speedPage {
                 let country = null;
                 country = {
                     name: nameNode[i].innerText.trim(),
-                    brodaband_speed: speedNode[i].innerText,
+                    broadband_speed: speedNode[i].innerText,
                     url: nameNode[i].href
                 }
                 infoArray.push(country);
