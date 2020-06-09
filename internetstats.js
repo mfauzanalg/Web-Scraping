@@ -79,11 +79,30 @@ class internetPage {
                 }
             }
 
+            replaceName = (str) => {
+                let res = str.replace('(SAR)', '');
+                res = res.replace('*', '');
+                res = res.replace('Afganistan', 'Afghanistan');
+                res = res.replace('Korea, South','South Korea');
+                res = res.replace('Kyrgystan','Kyrgyzstan');
+                res = res.replace('Macao','Macau');
+                res = res.replace('Republic of the Union of ','');
+                res = res.replace('&','and');
+                res = res.replace('Bahamas','The Bahamas');
+                res = res.replace('St. Kitts & Nevis','Saint Kitts and Nevis');
+                res = res.replace('St. Vincent & Grenadines','Saint Vincent and the Grenadines');
+                res = res.replace('Gambia','The Gambia');
+                res = res.replace('Bosnia-Herzegovina','Bosnia and Herzegovina');
+                res = res.replace(' (State of)','');
+                res = res.replace('Papau','Papua');
+                return res;
+            };
+
+
             for (let i = idx.from; i < idx.to; i++){
-                let country = null;
-                country = {
-                    name: rowArrList[i].cells[0].innerText,
-                    region: region,
+                let name = replaceName(rowArrList[i].cells[0].innerText);
+                let country = {
+                    name, region,
                     population: rowArrList[i].cells[1].innerText,
                     internetUsers: rowArrList[i].cells[idx.internetUsers].innerText,
                     penetration: rowArrList[i].cells[idx.penetration].innerText,
