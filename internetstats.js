@@ -26,7 +26,7 @@ class internetPage {
          // wait page to load
         await this.autoScroll(this.page);
         const elements = this.elements;
-
+        console.log(`Scraping ${region}`)
 
         let extractor = await this.page.evaluate((elements, region) => {
             window.scrollBy(0, window.innerHeight);
